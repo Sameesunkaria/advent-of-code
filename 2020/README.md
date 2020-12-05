@@ -11,3 +11,5 @@ To run, make sure you are in this directory and use the following command:
 **Day 2**: `jq -Rsf day2.jq input2.txt`
 
 **Day 3**: `jq -Rsf day3.jq input3.txt`
+
+**Day 4**: `jq -Rsf day4.jq input4.txt`
