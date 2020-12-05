@@ -6,12 +6,8 @@ The output of the jq code is generally an array with two elements corrosponding 
 
 To run, make sure you are in this directory and use the following command:
 
-#### Day 1
-```
-jq -sf day1.jq input1.txt
-```
+**Day 1**: `jq -sf day1.jq input1.txt`
 
-#### Day 2
-```
-jq -Rsf day2.jq input2.txt
-```
+**Day 2**: `jq -Rsf day2.jq input2.txt`
+
+**Day 3**: `jq -Rsf day3.jq input3.txt`

@@ -1,1 +1,9 @@
-def assert($expected): if . == $expected then . else ["Assertion Failed", .] end; 
+def assert($expected): 
+  if . == $expected then . 
+  else { 
+    error: "Assertion Failed", 
+    expected: $expected, 
+    actual: .
+  } 
+  end
+;
