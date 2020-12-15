@@ -35,3 +35,5 @@ To run, make sure you are in this directory and use the following command:
 >**Note:** The result for this task requires greater precision than what is supported by a 64-bit floating point number. A bigint library for jq (`bitint.jq`) written by Peter Koppstein is used for all computations for day 13's second task. You can find the library on [GitHub](https://github.com/joelpurra/jq-bigint).
 
 **Day 14**: `jq -Rsf day14.jq input14.txt`
+
+**Day 15**: `jq -nf day15.jq`
