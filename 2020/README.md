@@ -49,3 +49,5 @@ To run, make sure you are in this directory and use the following command:
 **Day 20**: `jq -Rsf day20.jq input20.txt`
 
 **Day 21**: `jq -Rsf day21.jq input21.txt`
+
+**Day 22**: `jq -Rsf day22.jq input22.txt`
